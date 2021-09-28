@@ -1,0 +1,29 @@
+{
+  "name": "uygulama",
+  "version": "1.0.0",
+  "main": "note.js",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon appm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ibrahim",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
